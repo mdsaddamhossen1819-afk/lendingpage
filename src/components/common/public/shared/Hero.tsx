@@ -99,10 +99,10 @@ const Hero = () => {
 
 
                 {/* ================= RIGHT SIDE ================= */}
-                <div className="relative flex h-[500px] items-center justify-center">
+                <div className="relative flex h-[500px] items-center justify-center overflow-hidden">
 
                     {/* Main Circle Container */}
-                    <div className="relative h-[430px] w-[430px]">
+                    <div className="relative h-[430px] w-[430px] ">
 
                         {/* Orange Circle */}
                         <div
@@ -154,21 +154,22 @@ const Hero = () => {
                         <div
                             className="
                 absolute
-                bottom-0
+                bottom-21
                 left-1/2
+                overflow-hidden
                 z-10
-                h-[420px]
-                w-[300px]
+                h-[400px]
+                w-[270px]
                 -translate-x-1/2
               "
                         >
                             <Image
-                                src="/profile.png"
+                                src="/saddam.pnj.png"
                                 alt="Saddam - Software Engineer"
                                 fill
                                 priority
                                 sizes="300px"
-                                className="object-contain object-bottom"
+                                className="object-contain object-bottom "
                             />
                         </div>
 
@@ -180,7 +181,7 @@ const Hero = () => {
 
 
             {/* ================= TECH STACK ================= */}
-            <div className="border-t border-[#344154] bg-[#080d15]">
+            <div className=" bg-[#080d15]">
 
                 <div className="mx-auto flex max-w-[1120px] items-center justify-between gap-8 overflow-x-auto px-5 py-5 lg:px-0">
 

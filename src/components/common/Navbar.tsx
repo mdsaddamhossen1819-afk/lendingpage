@@ -15,7 +15,7 @@ const Navbar = () => {
     ];
 
     return (
-        <header className="fixed left-0 top-0 z-50 w-full bg-black backdrop-blur-md">
+        <header className="fixed left-0 top-0 z-50 w-full border-b border-[#344154] bg-[#080d15] backdrop-blur-md">
             <nav className="mx-auto flex h-[75px] max-w-[1120px] items-center justify-between px-5 lg:px-0">
 
                 {/* Logo */}
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <span className="ml-1 h-6 w-[2px] bg-[#ff6959]" />
 
                     <span className="text-sm font-medium text-gray-400 transition group-hover:text-white">
-                        Frontend Development
+                        Frontend Developer
                     </span>
                 </Link>
 
