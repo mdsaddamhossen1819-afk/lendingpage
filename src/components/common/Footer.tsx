@@ -10,9 +10,28 @@ const Footer = () => {
 
                     {/* About */}
                     <div>
-                        <h2 className="text-xl font-semibold text-white">
-                            Jensen Omega
-                        </h2>
+                        <Link
+                            href="/"
+                            className="group flex items-center gap-2"
+                        >
+                            <span className="text-2xl font-bold tracking-tight text-white">
+                                S
+                            </span>
+
+                            <span className="text-2xl font-bold text-[#ff6959]">
+                                W
+                            </span>
+
+                            <span className="text-2xl font-bold text-white">
+                                E
+                            </span>
+
+                            <span className="ml-1 h-6 w-[2px] bg-[#ff6959]" />
+
+                            <span className="text-sm font-medium text-gray-400 transition group-hover:text-white">
+                                Software Engineer
+                            </span>
+                        </Link>
 
                         <p className="mt-4 max-w-sm text-sm leading-7 text-gray-400">
                             A passionate Software Developer focused on building
