@@ -33,7 +33,7 @@ const Hero = () => {
 
                     {/* Title */}
                     <h2 className="mt-3 text-3xl font-bold leading-tight text-white sm:text-4xl">
-                        Frontend Development
+                        Frontend Developer
                     </h2>
 
 
