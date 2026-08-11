@@ -11,7 +11,7 @@ const Navbar = () => {
         { name: "About", href: "#about" },
         { name: "Projects", href: "#projects" },
         { name: "Contacts", href: "#contact" },
-        { name:"Exprience", href: "#experience"}
+        { name: "Exprience", href: "#experience" }
     ];
 
     return (
@@ -20,10 +20,26 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <Link
-                    href="#home"
-                    className="text-lg font-semibold tracking-wide text-white"
+                    href="/"
+                    className="group flex items-center gap-2"
                 >
-                    Jensen Omega
+                    <span className="text-2xl font-bold tracking-tight text-white">
+                        S
+                    </span>
+
+                    <span className="text-2xl font-bold text-[#ff6959]">
+                        W
+                    </span>
+
+                    <span className="text-2xl font-bold text-white">
+                        E
+                    </span>
+
+                    <span className="ml-1 h-6 w-[2px] bg-[#ff6959]" />
+
+                    <span className="text-sm font-medium text-gray-400 transition group-hover:text-white">
+                        Software Engineer
+                    </span>
                 </Link>
 
                 {/* Desktop Menu + Button */}
