@@ -37,7 +37,7 @@ const About = () => {
                         <h3 className="text-3xl font-bold leading-tight text-white md:text-4xl">
                             A Passionate{" "}
                             <span className="text-[#ff6959]">
-                                Software Engineer
+                               Frontend Developer
                             </span>
                         </h3>
 
