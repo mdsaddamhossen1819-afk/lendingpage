@@ -38,7 +38,7 @@ const Navbar = () => {
                     <span className="ml-1 h-6 w-[2px] bg-[#ff6959]" />
 
                     <span className="text-sm font-medium text-gray-400 transition group-hover:text-white">
-                        Software Engineer
+                        Frontend Development
                     </span>
                 </Link>
 

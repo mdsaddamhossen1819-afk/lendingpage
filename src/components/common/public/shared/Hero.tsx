@@ -33,13 +33,13 @@ const Hero = () => {
 
                     {/* Title */}
                     <h2 className="mt-3 text-3xl font-bold leading-tight text-white sm:text-4xl">
-                        Software Engineer
+                        Frontend Development
                     </h2>
 
 
                     {/* Description */}
                     <p className="mt-6 max-w-xl text-sm leading-8 text-gray-400 sm:text-base">
-                        I am a passionate Software Engineer who loves building
+                        I am a passionate Frontend Development who loves building
                         modern, responsive and user-friendly web applications.
                         I turn ideas into clean and functional digital experiences.
                     </p>

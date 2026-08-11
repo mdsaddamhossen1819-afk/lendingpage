@@ -42,7 +42,7 @@ const About = () => {
                         </h3>
 
                         <p className="mt-6 text-sm leading-8 text-gray-400">
-                            I&apos;m a passionate Software Engineer who enjoys creating
+                            I&apos;m a passionate Frontend Development who enjoys creating
                             modern, responsive and user-friendly web applications.
                             I love turning ideas into real-world digital experiences
                             using clean and efficient code.
