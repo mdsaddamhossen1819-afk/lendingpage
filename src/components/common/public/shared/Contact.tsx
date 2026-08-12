@@ -124,7 +124,7 @@ const Contact = () => {
 
 
                     {/* ================= FORM ================= */}
-                    <div className="rounded-lg border border-[#344154] bg-[#080d15]  sm:p-8">
+                    <div className="rounded-lg border border-[#344154] bg-[#080d15]  sm:p-8 p-6">
 
                         <form className="space-y-6">
 

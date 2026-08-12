@@ -38,7 +38,7 @@ const Navbar = () => {
                     <span className="ml-1 h-6 w-[2px] bg-[#ff6959]" />
 
                     <span className="text-sm font-medium text-gray-400 transition group-hover:text-white">
-                        Frontend Developer
+                        Frontend Development
                     </span>
                 </Link>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
                 {/* Hire Me Button */}
                 <Link
                     href="#contact"
-                    className="rounded-sm bg-[#ff6959] px-5 py-2.5 text-[13px] font-medium text-white transition duration-300 hover:bg-[#ff806f] hover:shadow-lg hover:shadow-[#ff6959]/20"
+                    className=" hidden md:flex rounded-sm bg-[#ff6959] px-5 py-2.5 text-[13px] font-medium text-white transition duration-300 hover:bg-[#ff806f] hover:shadow-lg hover:shadow-[#ff6959]/20"
                 >
                     Hire Me
                 </Link>

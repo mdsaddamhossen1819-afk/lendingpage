@@ -114,7 +114,7 @@ const Experience = () => {
                     </div>
 
 
-                    <div className="flex gap-4 overflow-x-auto pb-4 justify-center">
+                    <div className="flex flex-wrap gap-4 overflow-x-auto pb-4 justify-center">
 
                         {frontendSkills.map((skill, index) => (
                             <SkillCard
